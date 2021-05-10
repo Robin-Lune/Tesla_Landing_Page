@@ -42,11 +42,11 @@ html {
 
 @font-face {
   font-family: "gotham";
-  src: url("ressources/Gotham Medium.otf") format("opentype");
+  src: url("./ressources/Gotham Medium.otf") format("opentype");
 }
 @font-face {
   font-family: "gotham-light";
-  src: url("ressources/Gotham-Light.otf") format("opentype");
+  src: url("./ressources/Gotham-Light.otf") format("opentype");
 }
 body {
   position: relative;
@@ -271,7 +271,7 @@ header .right ul a {
   position: absolute;
   width: 60px;
   height: 60px;
-  background-image: url("/ressources/down-arrow.svg");
+  background-image: url("./ressources/down-arrow.svg");
   background-size: 25px;
   background-repeat: no-repeat;
   background-position: center;
@@ -769,74 +769,74 @@ footer ul li a {
 }
 
 section:nth-child(1) {
-  background: url(/ressources/m3-homepage-desktop.jpg);
+  background: url(./ressources/m3-homepage-desktop.jpg);
   background-size: cover;
   background-position: center;
 }
 @media screen and (max-width: 736px) {
   section:nth-child(1) {
-    background: url(/ressources/m3-homepage-mobile.jpg);
+    background: url(./ressources/m3-homepage-mobile.jpg);
     background-size: cover;
     background-position: center;
   }
 }
 
 section:nth-child(2) {
-  background: url(/ressources/ms-homepage-desktop.jpg);
+  background: url(./ressources/ms-homepage-desktop.jpg);
   background-size: cover;
   background-position: center;
 }
 @media screen and (max-width: 736px) {
   section:nth-child(2) {
-    background: url(/ressources/ms-homepage-mobile.jpg);
+    background: url(./ressources/ms-homepage-mobile.jpg);
     background-size: cover;
     background-position: center;
   }
 }
 
 section:nth-child(3) {
-  background: url(/ressources/mx-homepage-desktop.jpg);
+  background: url(./ressources/mx-homepage-desktop.jpg);
   background-size: cover;
   background-position: center;
 }
 @media screen and (max-width: 736px) {
   section:nth-child(3) {
-    background: url(/ressources/mx-homepage-mobile.jpg);
+    background: url(./ressources/mx-homepage-mobile.jpg);
     background-size: cover;
     background-position: center;
   }
 }
 
 section:nth-child(4) {
-  background: url(/ressources/Desktop-ModelY.jpg);
+  background: url(./ressources/Desktop-ModelY.jpg);
   background-size: cover;
   background-position: center;
   background-position-y: 55%;
 }
 @media screen and (max-width: 736px) {
   section:nth-child(4) {
-    background: url(/ressources/mobile-ModelY.jpg);
+    background: url(./ressources/mobile-ModelY.jpg);
     background-size: cover;
     background-position: center;
   }
 }
 
 section:nth-child(5) {
-  background: url(/ressources/Desktop-SolarPanels.jpg);
+  background: url(./ressources/Desktop-SolarPanels.jpg);
   background-size: cover;
   background-position: center;
   background-position-y: 60%;
 }
 @media screen and (max-width: 736px) {
   section:nth-child(5) {
-    background: url(/ressources/mobile-SolarPanels.jpg);
+    background: url(./ressources/mobile-SolarPanels.jpg);
     background-size: cover;
     background-position: center;
   }
 }
 
 section:nth-child(6) {
-  background: url(/ressources/Desktop-Accessories.jpg);
+  background: url(./ressources/Desktop-Accessories.jpg);
   background-size: cover;
   background-position: center;
   background-position-y: 58%;
