@@ -1,0 +1,46 @@
+header {
+  position: absolute;
+  z-index: 10;
+}
+
+section {
+  background-color: lightblue;
+  height: 100vh;
+}
+
+section:nth-child(1) {
+  background: url(/ressources/m3-homepage-desktop.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+section:nth-child(2) {
+  background: url(/ressources/ms-homepage-desktop.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+section:nth-child(3) {
+  background: url(/ressources/mx-homepage-desktop.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+section:nth-child(4) {
+  background: url(/ressources/Desktop-ModelY.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+section:nth-child(5) {
+  background: url(/ressources/Desktop-SolarPanels.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+section:nth-child(6) {
+  background: url(/ressources/Desktop-Accessories.jpg);
+  background-size: cover;
+  background-position: center;
+}
+/*# sourceMappingURL=style.css.map */

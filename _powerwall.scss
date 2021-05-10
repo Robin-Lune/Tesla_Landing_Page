@@ -1,0 +1,58 @@
+@use "_mixins";
+
+.powerwall {
+  @include mixins.flex-center(column, none, center);
+  h1 {
+    text-align: center;
+    margin-top: 16vh;
+    font-family: "gotham", sans-serif;
+    color: #393c41;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    opacity: 0;
+    @media screen and (max-width: 736px) {
+      font-size: 1.5rem ;
+   }
+  }
+  h2,
+  a {
+    font-family: "gotham-light", sans-serif;
+    color: #5c5e62;
+    font-size: 1.1rem;
+    text-decoration: none;
+    margin-top: 10px;
+    opacity: 0;
+  }
+  .btn-configPW {
+    width: 256px;
+    background-color: #171a20cc;
+    color: white;
+    padding: 5px 10px;
+    margin: 0 8px;
+    cursor: pointer;
+    @media screen and (max-width: 736px) {
+      flex: 1;
+      margin: 10px;
+   }
+  }
+}
+.div-btnPW {
+  position: absolute;
+  @include mixins.flex-center(row, space-between, center);
+  height: 56px;
+  width: 270px;
+  bottom: 110px;
+  button {
+    border: none;
+    border-radius: 50px;
+    height: 2.5rem;
+    font-family: "gotham";
+    font-size: 0.75rem;
+    text-transform: uppercase;
+  }
+  opacity: 0;
+  @media screen and (max-width: 736px) {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}

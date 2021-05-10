@@ -1,0 +1,60 @@
+@use "_mixins";
+
+.modelX {
+  @include mixins.flex-center(column, none, center);
+  h1 {
+    margin-top: 16vh;
+    font-family: "gotham", sans-serif;
+    color: #393c41;
+    font-size: 2.5rem;
+    margin-bottom: 0;
+    opacity: 0;
+  }
+  
+  .btn-config {
+    background-color: #171a20cc;
+    color: white;
+    padding: 5px 40px;
+    margin: 0 8px;
+    cursor: pointer;
+    @media screen and (max-width: 736px) {
+      flex: 1;
+      margin: 10px;
+   }
+  }
+  .btn-dispo {
+    flex: 0.7;
+    background-color: #ffffffa6;
+    font-family: "gothem-light", sans-serif;
+    margin: 0 8px;
+    padding: 5px 40px;
+    cursor: pointer;
+    @media screen and (max-width: 736px) {
+      flex: 1;
+      margin: 10px;
+   }
+  }
+}
+.div-btnX {
+  position: absolute;
+  @include mixins.flex-center(row, space-between, center);
+  height: 56px;
+  width: 606px;
+  bottom: 75px;
+  button {
+    border: none;
+    border-radius: 50px;
+    flex: 1;
+    height: 2.5rem;
+    font-family: "gotham";
+    font-size: 0.75rem;
+    text-transform: uppercase;
+   
+  }
+  @media screen and (max-width: 736px) {
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+  }
+  opacity: 0;
+}
